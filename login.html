@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <style>
+    body {
+        background-color: #f6f6f6;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content {
+        width: 90em;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 1em;
+        box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.1);
+        height: 40em;
+        margin-top: 7em;
+    }
+    .title {
+        font-size: 33pt;
+        font-weight: 1000;
+    }
+    .signup {
+        float: right;
+        width: 50%;
+        color: #fff;
+        background-image: linear-gradient(to right, #FA4E2C, #D35150);
+        text-align: center;
+        border-radius: 0 1em 1em 0;
+        padding: 10% 0;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    .login {
+        width: 50%;
+        background-color: #fff;
+        color: #131313;
+        text-align: center;
+        border-radius: 1em 0 0 1em;
+        padding: 10% 0;
+        height: 100%;
+        box-sizing: border-box
+    }
+    .input {
+        width: 40%;
+        margin-bottom: 0.4em;
+        border-radius: 0.3em;
+        background-color: rgba(255, 255, 255, 0.7);
+        height: 2.5em;
+        border: none;
+        box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2) ;
+        padding-left: 1em;
+    }
+    .btn {
+        border-style: solid;
+        border-radius: 4em;
+        text-transform: uppercase;
+        border-width: 0.010em;
+        padding: 0.5em 1em 0.5em 1em;
+        color: #fff;
+        font-size: 15pt;
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="signup">
+            <span class="title">Crie uma conta</span> <br>
+            <span> Cadastre-se agora mesmo!</span> <br>
+            <span>Use seu email para criar sua conta</span> <br>
+            <form action="">
+            <input type="text" style="margin-top: 1em;" placeholder="Nome" class="input"> <br>
+            <input type="email" class="input" placeholder="Email"> <br>
+            <input type="password" class="input" placeholder="Senha"> <br> <br>
+            <input type="submit" class="btn" value="Criar conta" />
+        </form>
+        </div>
+        <div class="login">
+            <span class="title">Faça login</span> <br>
+            <span>Mantenha-se conectado com nosco e aproveite!</span> <br>
+            <input type="email" class="input" style="margin-top: 1em;" placeholder="Email"> <br>
+            <input type="password" class="input" placeholder="Senha"> <br>
+            <input type="submit" class="btn" value="Entrar" style="color: #fff; background-color: #FA4E2C; width: 20%;"> <br> <br>
+            <span class="text">Esqueceu a senha?</span> <br> <br>
+            <span style="color: rgba(0, 0, 0, 0.2);">Criado por Eduardo Vilar</span>
+        </div>
+    </div>
+</body>
+</html>
